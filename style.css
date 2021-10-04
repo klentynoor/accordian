@@ -1,0 +1,95 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.Accordion:after {
+  content: "\002B";
+  color: #4544a2;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.table-wrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+.table-wrapper {
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.main-table-wrapper button {
+  font-size: 20px;
+  color: #4544a2;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.Accordion {
+  border-radius: 5px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.main-table-wrapper button {
+  font-size: 20px;
+  color: #4544a2;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.main-table-wrapper tr {
+  border-bottom: 1px solid #eee;
+}
+
+.main-table-wrapper th {
+  padding: 15px 15px !important;
+  font-size: 17px;
+}
+.main-table-wrapper th {
+  width: 32%;
+  font-weight: 100;
+  font-size: 28px;
+  color: #05034e;
+}
+
+tbody .text-center {
+  min-width: 34px;
+}
+.main-table-wrapper th {
+  padding: 15px 15px !important;
+  font-size: 17px;
+}
+.table-heading-wrapper th {
+  font-size: 18px !important;
+  color: #05034e;
+  width: 217px !important;
+  font-weight: 600;
+  padding: 1px !important;
+}
+
+.user {
+  max-height: 733px;
+}
